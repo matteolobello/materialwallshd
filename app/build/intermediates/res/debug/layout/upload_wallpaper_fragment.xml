@@ -83,4 +83,4 @@
         android:layout_toLeftOf="@+id/wallpaper_select"
         android:layout_toStartOf="@+id/wallpaper_select" />
 
-</RelativeLayout><!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/src/main/res/layout/upload_wallpaper_fragment.xml -->
+</RelativeLayout><!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/layout/upload_wallpaper_fragment.xml -->

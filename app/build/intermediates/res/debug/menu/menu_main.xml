@@ -12,4 +12,4 @@
     <item android:id="@+id/action_gridview_3_col" android:title="@string/three_columns"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/src/main/res/menu/menu_main.xml -->
+<!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/menu/menu_main.xml -->

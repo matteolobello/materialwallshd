@@ -16,6 +16,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.GridView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.lob.mwhd.helpers.Utils;
 
@@ -211,8 +212,10 @@ public class URLs {
             }
             dialog.dismiss();
 
-            if (fromShakeListener)
+            if (fromShakeListener) {
+                Toast.makeText(activity, R.string.done, Toast.LENGTH_SHORT).show();
                 activity.startActivity(Utils.homeIntent());
+            }
 
             super.onPostExecute(s);
         }

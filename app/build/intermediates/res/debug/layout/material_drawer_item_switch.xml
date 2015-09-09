@@ -65,4 +65,4 @@
         android:textOn=""
         android:textSize="@dimen/material_drawer_item_primary_text"
         app:showText="false"/>
-</RelativeLayout><!-- From: file:/Users/mikepenz/GoogleDrive/Development/AndroidLibraries/MaterialDrawer/library/src/main/res/layout/material_drawer_item_switch.xml --><!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/layout/material_drawer_item_switch.xml -->
+</RelativeLayout><!-- From: file:/Users/mikepenz/GoogleDrive/Development/AndroidLibraries/MaterialDrawer/library/src/main/res/layout/material_drawer_item_switch.xml --><!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/layout/material_drawer_item_switch.xml -->

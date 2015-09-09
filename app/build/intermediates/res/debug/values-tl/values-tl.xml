@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-tl/values-tl.xml -->
+    <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-tl/values-tl.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Mag-navigate patungo sa home"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Mag-navigate pataas"</string>
@@ -15,7 +15,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Paghahanap gamit ang boses"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Ibahagi sa/kay"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Ibahagi sa/kay %s"</string>
-    <!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-tl/common_strings.xml -->
+    <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-tl/common_strings.xml -->
     <eat-comment/>
     <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"Ang <ns1:g id="APP_NAME">%1$s</ns1:g> ay nangangailangan ng update sa Android Wear app."</string>
     <string msgid="2453027084525739603" name="common_android_wear_update_text">"Hindi gagana ang <ns1:g id="APP_NAME">%1$s</ns1:g> maliban kung i-a-update mo ang Android Wear app."</string>

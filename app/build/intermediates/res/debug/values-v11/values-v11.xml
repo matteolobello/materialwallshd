@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-v11/values-v11.xml -->
+    <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-v11/values-v11.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Inverse">
         <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
@@ -59,7 +59,7 @@
         <item name="android:dropDownSelector">?attr/listChoiceBackgroundIndicator</item>
         <item name="android:popupBackground">@drawable/abc_popup_background_mtrl_mult</item>
     </style>
-    <!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/values-v11/values-v11.xml -->
+    <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/values-v11/values-v11.xml -->
     <eat-comment/>
     <style name="MaterialDrawerBaseTheme" parent="MaterialDrawerBaseBaseTheme">
         <!--
@@ -112,7 +112,7 @@
         <item name="windowActionBar">true</item>
         <item name="windowNoTitle">false</item>
     </style>
-    <!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-v11/values-v11.xml -->
+    <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-v11/values-v11.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="Platform.V11.AppCompat"/>
     <style name="Platform.AppCompat.Light" parent="Platform.V11.AppCompat.Light"/>

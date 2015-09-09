@@ -14,4 +14,4 @@
           android:background="#59000000"
           android:layout_alignParentTop="true"
           android:id="@+id/shadow_top"/>
-</RelativeLayout><!-- From: file:/Users/mikepenz/GoogleDrive/Development/AndroidLibraries/MaterialDrawer/library/src/main/res/layout/material_drawer_slider.xml --><!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/layout/material_drawer_slider.xml -->
+</RelativeLayout><!-- From: file:/Users/mikepenz/GoogleDrive/Development/AndroidLibraries/MaterialDrawer/library/src/main/res/layout/material_drawer_slider.xml --><!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/layout/material_drawer_slider.xml -->

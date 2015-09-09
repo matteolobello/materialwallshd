@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/values-v19/values-v19.xml -->
+    <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/values-v19/values-v19.xml -->
     <eat-comment/>
     <dimen name="tool_bar_top_padding">25dp</dimen>
     <style name="MaterialDrawerTheme.ActionBar.TranslucentStatus" parent="MaterialDrawerTheme.ActionBar">

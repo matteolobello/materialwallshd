@@ -39,4 +39,4 @@
         ads:adUnitId="@string/banner_ad_unit_id">
     </com.google.android.gms.ads.AdView>
 
-</RelativeLayout><!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/src/main/res/layout/generic_fragment.xml -->
+</RelativeLayout><!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/layout/generic_fragment.xml -->

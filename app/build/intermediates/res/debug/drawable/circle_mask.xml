@@ -17,4 +17,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
        android:shape="oval">
     <solid android:color="#000"/>
-</shape><!-- From: file:/Users/mikepenz/GoogleDrive/Development/AndroidLibraries/MaterialDrawer/library/src/main/res/drawable/circle_mask.xml --><!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/drawable/circle_mask.xml -->
+</shape><!-- From: file:/Users/mikepenz/GoogleDrive/Development/AndroidLibraries/MaterialDrawer/library/src/main/res/drawable/circle_mask.xml --><!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/drawable/circle_mask.xml -->

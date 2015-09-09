@@ -2,4 +2,4 @@
 <animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/progress_image"
     android:pivotX="50%"
-    android:pivotY="50%"/><!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/src/main/res/drawable/progress_anim.xml -->
+    android:pivotY="50%"/><!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/drawable/progress_anim.xml -->

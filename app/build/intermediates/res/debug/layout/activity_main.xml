@@ -18,4 +18,4 @@
         android:id="@+id/container"
         android:background="@color/md_white_1000"
         android:orientation="vertical" />
-</LinearLayout><!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/src/main/res/layout/activity_main.xml -->
+</LinearLayout><!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/layout/activity_main.xml -->

@@ -4,4 +4,4 @@
     <item android:state_focused="true" android:color="@android:color/white" />
     <item android:state_pressed="true" android:color="@android:color/white" />
     <item android:color="@android:color/white" />
-</selector> <!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/src/main/res/color/selector.xml -->
+</selector> <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/color/selector.xml -->

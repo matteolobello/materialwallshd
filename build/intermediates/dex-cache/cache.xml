@@ -2,123 +2,123 @@
 <items version="2" >
 
     <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1821601ddbec5ff125653097812823388700af74">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/classes-1c36445b21d73081e81ef46432655187703886b6.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="17d90052880a52c27633b7db609580f5155c6f40">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/classes-c40b659a6c56ad4f204c534bbd72e77c05bbda4e.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/libs/nineoldandroids-2.4.0.jar"
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/libs/nineoldandroids-2.4.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/nineoldandroids-2.4.0-de5e9ccab94626a4873c42fc96bf69017dc9956c.jar" />
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-161911fa8a228db6978a06b30155324c4675037d.jar" />
     </item>
     <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.mikepenz/iconics/1.0.1/jars/classes.jar"
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/libs/bolts-android-1.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="b5293d036c23b7a5046f86ee04932a12f76830e2">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/classes-e171b487ca5eba181449f1191f5efc01fb50004e.jar" />
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.1-f10caa05dd1620fa9db5c14baa7cbaf6645fdc76.jar" />
     </item>
     <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/classes-cc7d26f45ab31733fe3d2cf75aff3497eca2da90.jar" />
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-2129c07e3793ac6c49a0d90b7e7d9b9bada072ee.jar" />
     </item>
     <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/classes-a9328554595e96e6ac7a047f8271a49a6fecbffe.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/libs/Parse-1.10.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="181b435832725bec96c11ff568bdfbccdacab944">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/Parse-1.10.1-8f50c9d92278336d38be7c5102b5218c5218e281.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.android.support/palette-v7/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d3aba1c188fea5ee83ebbcb458be29d1cc0ef483">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/classes-dc652627319952f83ff3266223b3f455ea000d5b.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/classes-7aa223bffd74d959c658176c4fc814047943196a.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/classes-10dd56ac27d32679e90e6e2206dc40da68877a11.jar" />
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/classes-ce01fe99a3a86d0f84a4550aebfc5e85955c3ebb.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/classes-463d98cc4f35f2ae29c72b89fb9ae3bd12020c4d.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/libs/jsoup-1.8.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="580e4dd2a6125cc4037450b40623ac6a552c11df">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/jsoup-1.8.2-b1ccdad0d0c56d8527fd9b1e27a807c492b956fb.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.android.support/palette-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d3aba1c188fea5ee83ebbcb458be29d1cc0ef483">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/classes-a40ec46eb8c12585b0c45634bd591e5ef5e8e5be.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/classes-e29ed2b12a6f399604a6c37172af87a2d1798fc2.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17d90052880a52c27633b7db609580f5155c6f40">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/classes-b7cb5c5bd491d720124d133c2a337cc4602bb9d9.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/libs/Parse-1.10.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="181b435832725bec96c11ff568bdfbccdacab944">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/Parse-1.10.1-e7d1373866361ff6bc0bedf0fd3777d328de5b90.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.mikepenz/iconics/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5293d036c23b7a5046f86ee04932a12f76830e2">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/classes-f21e964632913a89ee400567a41066acb74a128e.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/classes-7de449d4a50dc838daf9ed880b2c4cd72526042b.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/classes-3a73c75d7275c3dc6f2d89a54fb31860f028d1e4.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/classes-9f5596585e9e2673df8a7ae1a856858f24985fce.jar" />
+    </item>
+    <item
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-a2873d9305bd9dd31c6edf0e80fb5a5119d75bd2.jar" />
     </item>
     <item
         jar="/Users/Lob/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/support-annotations-22.2.1-da917d08df5f9ad6f15ef7e50a9793b3d3e974d0.jar" />
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-da917d08df5f9ad6f15ef7e50a9793b3d3e974d0.jar" />
     </item>
     <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jar="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/classes-25da8c3bffa6a39ab7920edd9f7ebb8cc763455d.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/libs/jsoup-1.8.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="580e4dd2a6125cc4037450b40623ac6a552c11df">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/jsoup-1.8.2-d6b0cc515ff7c915de33dfe78aa3c1c43157eaa3.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/libs/bolts-android-1.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/bolts-android-1.2.1-81df80bc00bb39fbca1e42bc99932c1d800eea02.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/classes-c5badd6834dfe60d3c819afe3e4a176ccdbc6ea7.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/libs/picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/picasso-2.5.2-9d525353e99ff8f7e097ea564ed13579c47c26c2.jar" />
-    </item>
-    <item
-        jar="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/pre-dexed/release/internal_impl-22.2.1-d1b517016a762f4d315a1917aa1a7fbee07104ca.jar" />
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/pre-dexed/debug/classes-f08c2796583e173596bfb0014a5a65a828152ad4.jar" />
     </item>
 
 </items>
