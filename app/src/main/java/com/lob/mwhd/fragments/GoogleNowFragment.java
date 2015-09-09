@@ -33,7 +33,7 @@ public class GoogleNowFragment extends Fragment {
         sharedPreferences = Utils.getSharedPreferences(getActivity());
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
         Utils.setupAds(rootView);
-        SetupGridView.init(getActivity(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.GNOW_PATH);
+        SetupGridView.init(getActivity(), new GoogleNowFragment(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.GNOW_PATH);
         return rootView;
     }
 }

@@ -43,6 +43,6 @@
     <string name="matteo_lobello">Matteo Lobello</string>
     <string name="app_name_with_version">MaterialWallsHD \nv2.0</string>
     <string name="no_wallpapers_available">No wallpapers available yet</string>
-    <string name="select_wallpaper_btn">select_wallpaper_btn</string>
+    <string name="select_wallpaper_btn">Select wallpaper</string>
     <string name="name">Name</string>
 </resources>

@@ -840,7 +840,7 @@
     <string name="photography">Photography</string>
     <string name="poly">Poly</string>
     <string name="select_wallpaper">Select Wallpaper, please</string>
-    <string name="select_wallpaper_btn">select_wallpaper_btn</string>
+    <string name="select_wallpaper_btn">Select wallpaper</string>
     <!-- From: file:/Users/Lob/Downloads/MaterialWallsHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>

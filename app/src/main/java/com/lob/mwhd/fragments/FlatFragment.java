@@ -33,7 +33,7 @@ public class FlatFragment extends Fragment {
         sharedPreferences = Utils.getSharedPreferences(getActivity());
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
         Utils.setupAds(rootView);
-        SetupGridView.init(getActivity(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.FLAT_PATH);
+        SetupGridView.init(getActivity(), new FlatFragment(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.FLAT_PATH);
         return rootView;
     }
 }

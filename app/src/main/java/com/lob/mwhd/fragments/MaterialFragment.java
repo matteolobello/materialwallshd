@@ -33,7 +33,7 @@ public class MaterialFragment extends Fragment {
         sharedPreferences = Utils.getSharedPreferences(getActivity());
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
         Utils.setupAds(rootView);
-        SetupGridView.init(getActivity(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.MATERIAL_PATH);
+        SetupGridView.init(getActivity(), new MaterialFragment(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.MATERIAL_PATH);
         return rootView;
     }
 }

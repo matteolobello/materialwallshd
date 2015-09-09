@@ -33,7 +33,7 @@ public class PhotographyFragment extends Fragment {
         sharedPreferences = Utils.getSharedPreferences(getActivity());
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
         Utils.setupAds(rootView);
-        SetupGridView.init(getActivity(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.PHOTOGRAPHY_PATH);
+        SetupGridView.init(getActivity(), new PhotographyFragment(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.PHOTOGRAPHY_PATH);
         return rootView;
     }
 }

@@ -49,6 +49,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        com.lob.mwhd.helpers.FragmentManager.fragmentManager = getSupportFragmentManager();
+
         activity = this;
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);

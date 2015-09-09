@@ -33,7 +33,7 @@ public class PolyFragment extends Fragment {
         sharedPreferences = Utils.getSharedPreferences(getActivity());
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
         Utils.setupAds(rootView);
-        SetupGridView.init(getActivity(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.POLY_PATH);
+        SetupGridView.init(getActivity(), new PolyFragment(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.POLY_PATH);
         return rootView;
     }
 }
