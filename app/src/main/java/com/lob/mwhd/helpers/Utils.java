@@ -101,6 +101,7 @@ public class Utils {
                 .replace(URLs.USERS_PATH, "")
                 .replace("/", "")
                 .replace(".jpg", "")
+                .replace(".jpeg", "")
                 .replace(".png", "")
                 .replace(".bmp", "")
                 .replace("_", " ")
