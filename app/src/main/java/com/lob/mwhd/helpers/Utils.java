@@ -119,6 +119,12 @@ public class Utils {
                 .replace("/", "");
     }
 
+    public static Intent homeIntent() {
+        return new Intent(Intent.ACTION_MAIN)
+                .addCategory(Intent.CATEGORY_HOME)
+                .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    }
+
     public static void restart(Activity activity, Context context) {
         activity.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         context.startActivity(context.getPackageManager()

@@ -45,4 +45,6 @@
     <string name="no_wallpapers_available">No wallpapers available yet</string>
     <string name="select_wallpaper_btn">Select wallpaper</string>
     <string name="name">Name</string>
+    <string name="selecting_wallpaper">Selecting Wallpaper...</string>
+    <string name="shake_to_select_random_wallapaper">Shake to select a random wallpaper ;)</string>
 </resources>

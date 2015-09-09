@@ -40,86 +40,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SetupGridView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/gridview/SetupGridView.java">
+      <file leaf-file-name="UsersFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UsersFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1879518">
-              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/activities/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3409091">
+              <caret line="99" column="48" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1847#2074#0" expanded="true" />
-                <element signature="e#2073#2074#0" expanded="true" />
+                <element signature="e#3369#3411#0" expanded="true" />
+                <element signature="e#3714#3903#0" expanded="true" />
+                <element signature="e#3902#3903#0" expanded="true" />
+                <element signature="e#5727#5763#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwipeRefreshLayout.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.1/support-v4-22.2.1-sources.jar!/android/support/v4/widget/SwipeRefreshLayout.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+              <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/AboutFragment.java">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.925926">
+              <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleNowFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/GoogleNowFragment.java">
+      <file leaf-file-name="ShakeDetector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/ShakeDetector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
-              <folding />
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaterialFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/MaterialFragment.java">
+      <file leaf-file-name="URLs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/URLs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinimalFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/MinimalFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhotographyFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/PhotographyFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PolyFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/PolyFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
-              <folding />
+              <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6582#6630#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,19 +116,11 @@
       <file leaf-file-name="UploadWallpaperFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UploadWallpaperFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UsersFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="-4.7777777">
+              <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+              <folding>
+                <element signature="e#8482#8535#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,6 +133,7 @@
         <option value="layoutResourceFile_vertical" />
         <option value="valueResourceFile" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -1584,9 +1566,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/materialwallshd/CustomGridViewAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/materialwallshd/UploadWallpaperFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/materialwallshd/activities/CrashHandlerApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/materialwallshd/applications/CrashHandlerApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_on_crash.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/materialwallshd/activities/OnCrashActivity.java" />
@@ -1607,25 +1586,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/materialwallshd/URLs.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_apply_wallpaper.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/materialwallshd/fragments/UploadWallpaperFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/gridview/CustomGridViewAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-land/upload_wallpaper_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/AboutFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/activities/ApplyWallpaperActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/views/IconEditText.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UploadWallpaperFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/about_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-land/about_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/upload_wallpaper_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/Utils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/URLs.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/generic_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/FragmentManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/FlatFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/GoogleNowFragment.java" />
@@ -1635,6 +1607,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/PolyFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UsersFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/gridview/SetupGridView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/ShakeListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/ShakeDetector.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UploadWallpaperFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/Utils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/activities/ApplyWallpaperActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/activities/NotUsedYet.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/URLs.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/activities/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -1652,6 +1634,28 @@
     <option name="y" value="23" />
     <option name="width" value="1600" />
     <option name="height" value="777" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Deprecation</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1802,7 +1806,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gridview" />
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1841,6 +1845,42 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mwhd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MaterialWallsHD" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MaterialWallsHD" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -1865,8 +1905,13 @@
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lob.mwhd.activities" />
+    </key>
     <key name="android.template.packageName">
       <recent name="com.lob.materialwallshd.activities" />
     </key>
@@ -2101,7 +2146,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49167928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25738126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -2163,31 +2208,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UploadWallpaperFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/upload_wallpaper_fragment.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/URLs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6582#6630#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2198,8 +2225,10 @@
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2850#2885#0" expanded="true" />
-            <element signature="e#7636#7663#0" expanded="true" />
+            <element signature="e#3369#3411#0" expanded="true" />
+            <element signature="e#3714#3903#0" expanded="true" />
+            <element signature="e#3902#3903#0" expanded="true" />
+            <element signature="e#5727#5763#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2208,6 +2237,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="205" column="74" selection-start-line="205" selection-start-column="74" selection-end-line="205" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2257,7 +2289,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="105" selection-start-line="87" selection-start-column="105" selection-end-line="87" selection-end-column="105" />
-          <folding />
+          <folding>
+            <element signature="e#8482#8535#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2267,6 +2301,7 @@
           <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6582#6630#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2277,8 +2312,10 @@
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2850#2885#0" expanded="true" />
-            <element signature="e#7636#7663#0" expanded="true" />
+            <element signature="e#3369#3411#0" expanded="true" />
+            <element signature="e#3714#3903#0" expanded="true" />
+            <element signature="e#3902#3903#0" expanded="true" />
+            <element signature="e#5727#5763#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2321,6 +2358,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8333333">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2352,25 +2392,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/activities/ApplyWallpaperActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5555553">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2459,26 +2484,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.939759">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/URLs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1445782">
-          <caret line="135" column="106" selection-start-line="135" selection-start-column="106" selection-end-line="135" selection-end-column="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25301206">
@@ -2506,102 +2511,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/FragmentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023696683">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1138614">
-          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666">
-          <caret line="51" column="91" selection-start-line="51" selection-start-column="91" selection-end-line="51" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2850#2885#0" expanded="true" />
-            <element signature="e#7636#7663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/FlatFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/AboutFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/GoogleNowFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/MaterialFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/MinimalFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/PhotographyFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/PolyFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UploadWallpaperFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UsersFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -2620,8 +2533,157 @@
           <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1847#2074#0" expanded="true" />
-            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="e#1902#2118#0" expanded="true" />
+            <element signature="e#2117#2118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/AboutFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4939759">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/GoogleNowFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67469877">
+          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/MaterialFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67469877">
+          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/MinimalFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67469877">
+          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/PhotographyFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6385542">
+          <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/PolyFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67469877">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/GetSupportFragmentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.072289154">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UploadWallpaperFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7777777">
+          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding>
+            <element signature="e#8482#8535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.925926">
+          <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22727273">
+          <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5371#5405#0" expanded="true" />
+            <element signature="e#5433#5485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/helpers/ShakeDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/activities/ApplyWallpaperActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.126354">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/URLs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6582#6630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/fragments/UsersFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lob/mwhd/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3409091">
+          <caret line="99" column="48" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3369#3411#0" expanded="true" />
+            <element signature="e#3714#3903#0" expanded="true" />
+            <element signature="e#3902#3903#0" expanded="true" />
+            <element signature="e#5727#5763#0" expanded="true" />
           </folding>
         </state>
       </provider>

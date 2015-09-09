@@ -113,8 +113,8 @@ public final class R {
 		public static final int create_calendar_message = 0x7f06003c;
 		public static final int create_calendar_title = 0x7f06003d;
 		public static final int decline = 0x7f06003f;
-		public static final int store_picture_message = 0x7f060075;
-		public static final int store_picture_title = 0x7f060076;
+		public static final int store_picture_message = 0x7f060077;
+		public static final int store_picture_title = 0x7f060078;
 	}
 	public static final class style {
 		public static final int Theme_IAPTheme = 0x7f080101;

@@ -16,6 +16,7 @@
         android:name="com.lob.materialwallshd.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
     <uses-permission android:name="com.lob.materialwallshd.permission.C2D_MESSAGE" />
 
     <application

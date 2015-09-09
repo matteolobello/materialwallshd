@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.GridView;
 
 import com.lob.mwhd.R;
+import com.lob.mwhd.helpers.GetSupportFragmentManager;
 import com.lob.mwhd.helpers.Utils;
 import com.nhaarman.listviewanimations.appearance.simple.SwingBottomInAnimationAdapter;
 
@@ -38,7 +39,7 @@ public class SetupGridView {
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                Utils.setFragment(com.lob.mwhd.helpers.FragmentManager.fragmentManager, fragment);
+                Utils.setFragment(GetSupportFragmentManager.fragmentManager, fragment);
             }
         });
         setGridViewItemsAnimation(gridView, customGridViewAdapter);

@@ -1,10 +1,14 @@
 package com.lob.mwhd.activities;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AlertDialog;
@@ -16,6 +20,7 @@ import android.widget.AdapterView;
 import android.widget.Toast;
 
 import com.lob.mwhd.R;
+import com.lob.mwhd.URLs;
 import com.lob.mwhd.fragments.AboutFragment;
 import com.lob.mwhd.fragments.FlatFragment;
 import com.lob.mwhd.fragments.GoogleNowFragment;
@@ -25,6 +30,8 @@ import com.lob.mwhd.fragments.PhotographyFragment;
 import com.lob.mwhd.fragments.PolyFragment;
 import com.lob.mwhd.fragments.UploadWallpaperFragment;
 import com.lob.mwhd.fragments.UsersFragment;
+import com.lob.mwhd.helpers.GetSupportFragmentManager;
+import com.lob.mwhd.helpers.ShakeDetector;
 import com.lob.mwhd.helpers.Utils;
 
 import com.mikepenz.materialdrawer.Drawer;
@@ -36,20 +43,30 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
+import java.util.ArrayList;
+import java.util.Random;
+
 public class MainActivity extends ActionBarActivity {
 
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
+
+    private SensorManager sensorManager;
+    private Sensor accelerometer;
+    private ShakeDetector shakeDetector;
+
     private Toolbar toolbar;
     private Drawer drawer;
     private Activity activity;
+
+    private final URLs urlsClass = new URLs();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        com.lob.mwhd.helpers.FragmentManager.fragmentManager = getSupportFragmentManager();
+        GetSupportFragmentManager.fragmentManager = getSupportFragmentManager();
 
         activity = this;
 
@@ -65,11 +82,46 @@ public class MainActivity extends ActionBarActivity {
 
         if (Utils.isOnline(getApplicationContext())) {
             Utils.Debug.log(getString(R.string.device_is_connected));
+
             Utils.setFragment(getSupportFragmentManager(), new MaterialFragment());
             Utils.setStatusBarColor(this);
+
+            boolean firstTime = sharedPreferences.getBoolean("firstTime", true);
+            if (firstTime) {
+                editor.putBoolean("firstTime", false).apply();
+                Toast.makeText(getApplicationContext(), R.string.shake_to_select_random_wallapaper, Toast.LENGTH_LONG).show();
+            }
+
+            sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+            accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+            shakeDetector = new ShakeDetector();
+            shakeDetector.setOnShakeListener(new ShakeDetector.OnShakeListener() {
+                @Override
+                public void onShake(int count) {
+                    handleShakeEvent(count);
+                }
+            });
         } else {
             Utils.showAlertDialogNotOnline(this);
         }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        sensorManager.registerListener(shakeDetector, accelerometer, SensorManager.SENSOR_DELAY_UI);
+    }
+
+    @Override
+    public void onPause() {
+        sensorManager.unregisterListener(shakeDetector);
+        super.onPause();
+    }
+
+    private void handleShakeEvent(int count) {
+        Vibrator vibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
+        vibrator.vibrate(200);
+        urlsClass.getAllFiles(this, true);
     }
 
     private void buildDrawer(final FragmentManager fragmentManager) {

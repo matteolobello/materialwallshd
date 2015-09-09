@@ -5,7 +5,6 @@ import android.app.Activity;
 import android.app.DownloadManager;
 import android.app.WallpaperManager;
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
@@ -15,7 +14,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.graphics.Palette;
-import android.view.Menu;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -150,9 +148,9 @@ public class ApplyWallpaperActivity extends ActionBarActivity {
     }
 
     public void fabClick(final View view) throws IOException {
-        WallpaperManager wpm = WallpaperManager.getInstance(getApplicationContext());
-        InputStream ins = new URL(url).openStream();
-        wpm.setStream(ins);
+        WallpaperManager wallpaperManager = WallpaperManager.getInstance(getApplicationContext());
+        InputStream inputStream = new URL(url).openStream();
+        wallpaperManager.setStream(inputStream);
 
         if (Utils.isOnLollipopOrEarlier) {
 
@@ -181,7 +179,7 @@ public class ApplyWallpaperActivity extends ActionBarActivity {
                             Runnable task = new Runnable() {
                                 public void run() {
                                     finish();
-                                    startActivity(homeIntent());
+                                    startActivity(Utils.homeIntent());
                                 }
                             };
                             worker.schedule(task, 1, TimeUnit.SECONDS);
@@ -200,13 +198,7 @@ public class ApplyWallpaperActivity extends ActionBarActivity {
             });
         } else {
             Snackbar.make(findViewById(R.id.layout_apply_wallpaper), getString(R.string.done), Snackbar.LENGTH_SHORT).show();
-            startActivity(homeIntent());
+            startActivity(Utils.homeIntent());
         }
-    }
-
-    private Intent homeIntent() {
-        return new Intent(Intent.ACTION_MAIN)
-                .addCategory(Intent.CATEGORY_HOME)
-                .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     }
 }

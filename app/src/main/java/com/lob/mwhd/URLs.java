@@ -8,6 +8,7 @@ package com.lob.mwhd;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.app.WallpaperManager;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.StrictMode;
@@ -23,7 +24,10 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class URLs {
 
@@ -140,13 +144,36 @@ public class URLs {
         return usersFiles;
     }
 
+    public ArrayList<String> getAllFiles(Activity activity, boolean fromShakeListener) {
+        allFiles.clear();
+        new URLs.GetAllLinks(activity, fromShakeListener).execute(
+                URLs.FLAT_PATH,
+                URLs.GNOW_PATH,
+                URLs.MATERIAL_PATH,
+                URLs.MINIMAL_PATH,
+                URLs.PHOTOGRAPHY_PATH,
+                URLs.POLY_PATH,
+                URLs.USERS_PATH
+        );
+        return allFiles;
+    }
 
     public static class GetAllLinks extends AsyncTask<String, String, String> {
 
-        final Context context;
+        private ProgressDialog dialog;
 
-        public GetAllLinks(Context context) {
-            this.context = context;
+        final Activity activity;
+        final boolean fromShakeListener;
+
+        public GetAllLinks(Activity activity, boolean fromShakeListener) {
+            this.activity = activity;
+            this.fromShakeListener = fromShakeListener;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            dialog = ProgressDialog.show(activity, "", activity.getString(R.string.selecting_wallpaper), true);
+            super.onPreExecute();
         }
 
         /**
@@ -164,15 +191,30 @@ public class URLs {
                 for (Element file : doc.select("li a")) {
                     if (!file.attr("href").contains("NOT_AUTHORIZED")) {
                         allFiles.add(MAIN_URL + aPath + file.attr("href").replace("./", "/"));
-                        Log.d("URL", MAIN_URL + aPath + file.attr("href").replace("./", "/"));
+                        if (Utils.Debug.isDebug)
+                            Log.d("URL", MAIN_URL + aPath + file.attr("href").replace("./", "/"));
                     }
                 }
             }
-            // Intent intent = new Intent("publishWallpaperReceiver");
-            // Random random = new Random();
-            // intent.putExtra("randomUrl", allFiles.get(random.nextInt(allFiles.size())));
-            // LocalBroadcastManager.getInstance(context).sendBroadcast(intent);
             return null;
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            if (fromShakeListener) {
+                try {
+                    String url = allFiles.get(new Random().nextInt(allFiles.size()));
+                    WallpaperManager wallpaperManager = WallpaperManager.getInstance(activity.getApplicationContext());
+                    InputStream inputStream = new URL(url).openStream();
+                    wallpaperManager.setStream(inputStream);
+                } catch (IOException ignored) {}
+            }
+            dialog.dismiss();
+
+            if (fromShakeListener)
+                activity.startActivity(Utils.homeIntent());
+
+            super.onPostExecute(s);
         }
     }
 
