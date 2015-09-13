@@ -41,7 +41,7 @@ public class UploadWallpaperFragment extends Fragment {
     private EditText title, credits;
 
     private int serverResponseCode = 0;
-    private String upLoadServerUri =  URLs.USER_UPLOAD_PHP_SCRIPT;
+    private String upLoadServerUri = URLs.USER_UPLOAD_PHP_SCRIPT;
     private String uploadFilePath;
 
     private HttpURLConnection httpUrlConnection;
@@ -146,7 +146,7 @@ public class UploadWallpaperFragment extends Fragment {
     private String getRealPathFromURI(Context context, Uri contentUri) {
         Cursor cursor = null;
         try {
-            String[] proj = { MediaStore.Images.Media.DATA };
+            String[] proj = {MediaStore.Images.Media.DATA};
             cursor = context.getContentResolver().query(contentUri, proj, null, null, null);
             int columnIndex = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
             cursor.moveToFirst();

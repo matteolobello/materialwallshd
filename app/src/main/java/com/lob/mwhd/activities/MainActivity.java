@@ -1,7 +1,6 @@
 package com.lob.mwhd.activities;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -33,7 +32,6 @@ import com.lob.mwhd.fragments.UsersFragment;
 import com.lob.mwhd.helpers.GetSupportFragmentManager;
 import com.lob.mwhd.helpers.ShakeDetector;
 import com.lob.mwhd.helpers.Utils;
-
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
 import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
@@ -43,23 +41,17 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
-import java.util.ArrayList;
-import java.util.Random;
-
 public class MainActivity extends ActionBarActivity {
 
+    private final URLs urlsClass = new URLs();
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
-
     private SensorManager sensorManager;
     private Sensor accelerometer;
     private ShakeDetector shakeDetector;
-
     private Toolbar toolbar;
     private Drawer drawer;
     private Activity activity;
-
-    private final URLs urlsClass = new URLs();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,7 +111,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void handleShakeEvent(int count) {
-        Vibrator vibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
+        Vibrator vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
         vibrator.vibrate(200);
         urlsClass.getAllFiles(this, true);
     }

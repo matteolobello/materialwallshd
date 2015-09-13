@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.lob.mwhd.R;
@@ -30,12 +31,15 @@ public class AboutFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.about_fragment, container, false);
-        TextView title = (TextView) rootView.findViewById(R.id.title_about);
-        TextView subTitle = (TextView) rootView.findViewById(R.id.subtitle_about);
+        final TextView title = (TextView) rootView.findViewById(R.id.title_about);
+        final TextView subTitle = (TextView) rootView.findViewById(R.id.subtitle_about);
+        final FloatingActionButton floatingActionButton = (FloatingActionButton) rootView.findViewById(R.id.fab_website);
+        final Button googlePlusCommunityButton = (Button) rootView.findViewById(R.id.google_plus);
+
+        final Typeface typeface = Typeface.createFromAsset(getActivity().getAssets(), "Roboto-Thin.ttf");
 
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
 
-        final FloatingActionButton floatingActionButton = (FloatingActionButton) rootView.findViewById(R.id.fab_website);
         floatingActionButton.startAnimation(AnimationUtils.loadAnimation(getActivity(), R.anim.zoom_in));
         floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(Color.WHITE));
         floatingActionButton.setRippleColor(Color.GRAY);
@@ -47,9 +51,16 @@ public class AboutFragment extends Fragment {
             }
         });
 
-        Typeface typeface = Typeface.createFromAsset(getActivity().getAssets(), "Roboto-Thin.ttf");
+        googlePlusCommunityButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getActivity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(URLs.GPLUS_COMMUNITY)));
+            }
+        });
+
         subTitle.setTypeface(typeface);
         title.setTypeface(typeface);
+        googlePlusCommunityButton.setTypeface(typeface);
         return rootView;
     }
 
@@ -84,10 +95,12 @@ public class AboutFragment extends Fragment {
                 }
 
                 @Override
-                public void onAnimationCancel(Animator animator) {}
+                public void onAnimationCancel(Animator animator) {
+                }
 
                 @Override
-                public void onAnimationRepeat(Animator animator) {}
+                public void onAnimationRepeat(Animator animator) {
+                }
             });
             anim.setDuration(350);
             anim.start();

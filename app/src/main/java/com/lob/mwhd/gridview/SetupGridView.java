@@ -34,7 +34,7 @@ public class SetupGridView {
         gridView.setHorizontalSpacing(8);
         gridView.setVerticalSpacing(8);
 
-        SwipeRefreshLayout swipeRefreshLayout = (SwipeRefreshLayout)rootView.findViewById(R.id.swipe_container);
+        SwipeRefreshLayout swipeRefreshLayout = (SwipeRefreshLayout) rootView.findViewById(R.id.swipe_container);
         swipeRefreshLayout.setColorSchemeColors(activity.getResources().getColor(R.color.ColorPrimary));
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override

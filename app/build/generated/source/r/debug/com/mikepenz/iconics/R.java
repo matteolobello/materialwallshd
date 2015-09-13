@@ -14,17 +14,17 @@ public final class R {
 	public static final class string {
 		public static final int app_name = 0x7f060035;
 		public static final int define_AndroidIconics = 0x7f060040;
-		public static final int library_AndroidIconics_author = 0x7f060052;
-		public static final int library_AndroidIconics_authorWebsite = 0x7f060053;
-		public static final int library_AndroidIconics_isOpenSource = 0x7f060054;
-		public static final int library_AndroidIconics_libraryDescription = 0x7f060055;
-		public static final int library_AndroidIconics_libraryName = 0x7f060056;
-		public static final int library_AndroidIconics_libraryVersion = 0x7f060057;
-		public static final int library_AndroidIconics_libraryWebsite = 0x7f060058;
-		public static final int library_AndroidIconics_licenseId = 0x7f060059;
-		public static final int library_AndroidIconics_owner = 0x7f06005a;
-		public static final int library_AndroidIconics_repositoryLink = 0x7f06005b;
-		public static final int library_AndroidIconics_year = 0x7f06005c;
+		public static final int library_AndroidIconics_author = 0x7f060053;
+		public static final int library_AndroidIconics_authorWebsite = 0x7f060054;
+		public static final int library_AndroidIconics_isOpenSource = 0x7f060055;
+		public static final int library_AndroidIconics_libraryDescription = 0x7f060056;
+		public static final int library_AndroidIconics_libraryName = 0x7f060057;
+		public static final int library_AndroidIconics_libraryVersion = 0x7f060058;
+		public static final int library_AndroidIconics_libraryWebsite = 0x7f060059;
+		public static final int library_AndroidIconics_licenseId = 0x7f06005a;
+		public static final int library_AndroidIconics_owner = 0x7f06005b;
+		public static final int library_AndroidIconics_repositoryLink = 0x7f06005c;
+		public static final int library_AndroidIconics_year = 0x7f06005d;
 	}
 	public static final class styleable {
 		public static final int[] IconicsImageView = { 0x7f01004a, 0x7f01004b };

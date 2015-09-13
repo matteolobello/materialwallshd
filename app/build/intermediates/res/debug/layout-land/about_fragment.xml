@@ -12,9 +12,9 @@
         android:id="@+id/title_about"
         android:textColor="@android:color/white"
         android:textSize="38sp"
-        android:layout_above="@+id/subtitle_about"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="45dp" />
+        android:layout_marginTop="71dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,8 +25,9 @@
         android:gravity="center"
         android:id="@+id/subtitle_about"
         android:textColor="@android:color/white"
-        android:layout_above="@+id/fab_website"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title_about"
+        android:layout_above="@+id/google_plus" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab_website"
@@ -39,6 +40,18 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/google_plus_community"
+        android:textColor="@android:color/white"
+        android:color="@android:color/transparent"
+        android:background="?android:selectableItemBackground"
+        android:id="@+id/google_plus"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignBottom="@+id/fab_website"
+        android:layout_centerHorizontal="true" />
 
     <RelativeLayout
         android:layout_width="match_parent"

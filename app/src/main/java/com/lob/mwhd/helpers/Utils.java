@@ -30,7 +30,6 @@ import android.view.WindowManager;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-
 import com.lob.mwhd.R;
 import com.lob.mwhd.URLs;
 

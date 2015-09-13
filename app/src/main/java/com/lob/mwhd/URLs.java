@@ -9,7 +9,6 @@ package com.lob.mwhd;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.app.WallpaperManager;
-import android.content.Context;
 import android.os.AsyncTask;
 import android.os.StrictMode;
 import android.util.Log;
@@ -33,6 +32,7 @@ import java.util.Random;
 public class URLs {
 
     public static final String MAIN_URL = "http://www.mwhd.altervista.org/";
+    public static final String GPLUS_COMMUNITY = "https://plus.google.com/communities/109354256637962646204";
     public static final String USER_UPLOAD_PHP_SCRIPT = "http://mwhd.altervista.org/php/UploadFileFromApp.php";
     public static final String MATERIAL_PATH = "/wp_upload/wallpapers/material";
     public static final String MINIMAL_PATH = "/wp_upload/wallpapers/minimal";
@@ -65,8 +65,8 @@ public class URLs {
         Document doc;
         materialFiles.clear();
         try {
-            doc = Jsoup.connect(MAIN_URL + MATERIAL_PATH + INDEX_PHP).timeout(10*1000).get();
-            new GetLinks(activity,rootView,  doc, MATERIAL_PATH).execute(materialFiles, materialFiles, materialFiles);
+            doc = Jsoup.connect(MAIN_URL + MATERIAL_PATH + INDEX_PHP).timeout(10 * 1000).get();
+            new GetLinks(activity, rootView, doc, MATERIAL_PATH).execute(materialFiles, materialFiles, materialFiles);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -89,7 +89,7 @@ public class URLs {
         Document doc;
         flatFiles.clear();
         try {
-            doc = Jsoup.connect(MAIN_URL + FLAT_PATH + INDEX_PHP).timeout(10*1000).get();
+            doc = Jsoup.connect(MAIN_URL + FLAT_PATH + INDEX_PHP).timeout(10 * 1000).get();
             new GetLinks(activity, rootView, doc, FLAT_PATH).execute(flatFiles, flatFiles, flatFiles);
         } catch (Exception e) {
             e.printStackTrace();
@@ -161,10 +161,9 @@ public class URLs {
 
     public static class GetAllLinks extends AsyncTask<String, String, String> {
 
-        private ProgressDialog dialog;
-
         final Activity activity;
         final boolean fromShakeListener;
+        private ProgressDialog dialog;
 
         public GetAllLinks(Activity activity, boolean fromShakeListener) {
             this.activity = activity;
@@ -186,7 +185,7 @@ public class URLs {
             for (String aPath : everyPath) {
                 Document doc = null;
                 try {
-                    doc = Jsoup.connect(MAIN_URL + aPath + INDEX_PHP).timeout(10*1000).get();
+                    doc = Jsoup.connect(MAIN_URL + aPath + INDEX_PHP).timeout(10 * 1000).get();
                 } catch (IOException ignored) {
                 }
                 for (Element file : doc.select("li a")) {
@@ -208,7 +207,8 @@ public class URLs {
                     WallpaperManager wallpaperManager = WallpaperManager.getInstance(activity.getApplicationContext());
                     InputStream inputStream = new URL(url).openStream();
                     wallpaperManager.setStream(inputStream);
-                } catch (IOException ignored) {}
+                } catch (IOException ignored) {
+                }
             }
             dialog.dismiss();
 
@@ -216,7 +216,6 @@ public class URLs {
                 Toast.makeText(activity, R.string.done, Toast.LENGTH_SHORT).show();
                 activity.startActivity(Utils.homeIntent());
             }
-
             super.onPostExecute(s);
         }
     }
@@ -254,8 +253,8 @@ public class URLs {
 
         @Override
         protected void onPostExecute(ArrayList<String> arrayList) {
-            TextView noWallpapersAvailable = (TextView)rootView.findViewById(R.id.no_wallpapers_available);
-            GridView gridView = (GridView)rootView.findViewById(R.id.grid_view);
+            TextView noWallpapersAvailable = (TextView) rootView.findViewById(R.id.no_wallpapers_available);
+            GridView gridView = (GridView) rootView.findViewById(R.id.grid_view);
             if (stringArrayList.size() == 0) {
                 gridView.setVisibility(View.GONE);
                 noWallpapersAvailable.setVisibility(View.VISIBLE);
