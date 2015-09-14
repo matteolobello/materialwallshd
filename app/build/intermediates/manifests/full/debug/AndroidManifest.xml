@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lob.mwhd"
     android:versionCode="1"
-    android:versionName="2.0" >
+    android:versionName="2.0.1" >
 
     <uses-sdk
         android:minSdkVersion="16"

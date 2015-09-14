@@ -14,6 +14,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.graphics.Palette;
+import android.view.Gravity;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -37,10 +38,12 @@ import static android.view.ViewAnimationUtils.createCircularReveal;
 public class ApplyWallpaperActivity extends ActionBarActivity {
 
     private final ScheduledExecutorService worker = Executors.newSingleThreadScheduledExecutor();
+
     private String url;
     private FloatingActionButton floatingActionButton;
     private View actionBar;
     private Activity currentActivity;
+    private ImageView bigPreview, backArrowActionBarItem, creditsActionbarItem, downloadActionBarItem ;
     private int lightColor, darkColor;
 
     @Override
@@ -65,7 +68,12 @@ public class ApplyWallpaperActivity extends ActionBarActivity {
 
             title.setText(Utils.getTitleForActionBarFromURL(url));
 
-            final ImageView imageView = (ImageView) findViewById(R.id.big_image_preview);
+            bigPreview = (ImageView) findViewById(R.id.big_image_preview);
+            backArrowActionBarItem = (ImageView) findViewById(R.id.back_arrow);
+            creditsActionbarItem = (ImageView) findViewById(R.id.credits_item);
+            downloadActionBarItem = (ImageView) findViewById(R.id.dl_item);
+
+            setupClickListeners();
 
             Picasso.with(getApplicationContext())
                     .load(url)
@@ -73,10 +81,10 @@ public class ApplyWallpaperActivity extends ActionBarActivity {
                     .error(android.R.drawable.stat_notify_error)
                     .fit()
                     .tag(getApplicationContext())
-                    .into(imageView, new com.squareup.picasso.Callback() {
+                    .into(bigPreview, new com.squareup.picasso.Callback() {
                         @Override
                         public void onSuccess() {
-                            Palette palette = Palette.from(((BitmapDrawable) imageView.getDrawable()).getBitmap()).generate();
+                            Palette palette = Palette.from(((BitmapDrawable) bigPreview.getDrawable()).getBitmap()).generate();
 
                             lightColor = palette.getVibrantColor(palette.getMutedColor(getResources().getColor(R.color.ColorPrimary)));
                             darkColor = palette.getDarkVibrantColor(palette.getDarkMutedColor(getResources().getColor(R.color.ColorPrimaryDark)));
@@ -91,9 +99,49 @@ public class ApplyWallpaperActivity extends ActionBarActivity {
                         }
                     });
         } else {
-            Utils.Debug.log("Device is NOT connected to Internet");
+            Utils.Debug.log(getString(R.string.device_is_not_connected));
             Utils.showAlertDialogNotOnline(this);
         }
+    }
+
+    private void setupClickListeners() {
+        backArrowActionBarItem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
+
+        creditsActionbarItem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(findViewById(R.id.fab), getString(R.string.credits) + ": " + Utils.getAuthorFromURL(url).replace("-", ""), Snackbar.LENGTH_SHORT)
+                        .show();
+            }
+        });
+
+        creditsActionbarItem.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                Toast.makeText(ApplyWallpaperActivity.this, getString(R.string.credits), Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
+
+        downloadActionBarItem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                downloadWallpaper();
+            }
+        });
+
+        downloadActionBarItem.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                Toast.makeText(ApplyWallpaperActivity.this, getString(R.string.download_wallpaper), Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
     }
 
     private void setupUI(final int colorLight, final int colorDark) {
@@ -109,22 +157,13 @@ public class ApplyWallpaperActivity extends ActionBarActivity {
         floatingActionButton.setRippleColor(colorDark);
     }
 
-    public void backArrowClick(View view) {
-        onBackPressed();
-    }
-
     @Override
     public void onBackPressed() {
         floatingActionButton.startAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.zoom_out));
         super.onBackPressed();
     }
 
-    public void showCredits(View view) {
-        Snackbar.make(findViewById(R.id.fab), getString(R.string.credits) + ": " + Utils.getAuthorFromURL(url).replace("-", ""), Snackbar.LENGTH_SHORT)
-                .show();
-    }
-
-    public void downloadItemClick(View view) {
+    private void downloadWallpaper() {
 
         File file = new File("/sdcard/MaterialWallsHD");
         if (!file.isDirectory() || !file.exists()) {

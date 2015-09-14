@@ -776,6 +776,7 @@
     <string name="done">Done! :)</string>
     <string name="done_will_verify">Done! We will verify your wallpaper as soon as possible :)</string>
     <string name="download_started">Download Started! :)</string>
+    <string name="download_wallpaper">Download Wallpaper</string>
     <string name="downloading_wallpaper">Downloading Wallpaper</string>
     <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.0.2/res/values/values.xml -->
     <eat-comment/>

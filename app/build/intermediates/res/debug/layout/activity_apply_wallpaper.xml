@@ -16,7 +16,6 @@
             android:layout_height="24dp"
             android:id="@+id/back_arrow"
             android:src="@drawable/arrow_left"
-            android:onClick="backArrowClick"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_centerVertical="true"/>
@@ -26,7 +25,6 @@
             android:layout_height="24dp"
             android:id="@+id/dl_item"
             android:src="@drawable/download"
-            android:onClick="downloadItemClick"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_marginLeft="16dp"
@@ -38,13 +36,12 @@
             android:layout_height="24dp"
             android:id="@+id/credits_item"
             android:src="@drawable/info"
-            android:onClick="showCredits"
             android:layout_toLeftOf="@+id/dl_item"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_toStartOf="@+id/dl_item"
             android:layout_alignBottom="@+id/dl_item"
-            android:layout_alignTop="@+id/dl_item" />
+            android:layout_alignTop="@+id/dl_item"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -104,8 +101,6 @@
             android:src="@drawable/check" />
 
     </RelativeLayout>
-
-
 
 </RelativeLayout>
 <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/layout/activity_apply_wallpaper.xml -->

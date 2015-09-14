@@ -15,6 +15,15 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="about">Informazioni App</string>
+    <string name="ads_info">Informazioni Banner</string>
+    <string name="ads_message">I guadagni ottenuti attraverso la pubblicità vengono investiti nel server. Sei sicuro di disabilitare la pubblicità senza alcun costo?</string>
+    <string name="app_name">MaterialWallsHD</string>
+    <string name="app_name_with_version">MaterialWallsHD \nv2.0</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1466167891405614/9878227286</string>
+    <string name="building_drawer">Generando il drawer</string>
     <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-it/common_strings.xml -->
     <eat-comment/>
     <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> richiede l\'aggiornamento dell\'app Android Wear."</string>
@@ -49,4 +58,49 @@
     <string msgid="411506735369601515" name="common_open_on_phone">"Apri sul telefono"</string>
     <string msgid="9071884888741449141" name="common_signin_button_text">"Accedi"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Accedi con Google"</string>
+    <!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="credits">Crediti</string>
+    <string name="device_is_connected">Il dispositivo è connesso ad Internet</string>
+    <string name="device_is_not_connected">Il dispositivo non è connesso ad Internet</string>
+    <string name="done">Fatto! :)</string>
+    <string name="done_will_verify">Fatto! Verificheremo lo sfondo il prima possibile :)</string>
+    <string name="download_started">Download iniziato! :)</string>
+    <string name="download_wallpaper">Scarica sfondo</string>
+    <string name="downloading_wallpaper">Scaricando lo sfondo</string>
+    <string name="enable_ads_question">Vuoi abilitare i banner?</string>
+    <string name="error">Errore</string>
+    <string name="file_not_exists">Il file non esiste! :(</string>
+    <string name="flat">Flat</string>
+    <string name="google_now">Google Now</string>
+    <string name="google_plus_community">Community su Google+</string>
+    <string name="image_selected">Immagine selezionata</string>
+    <string name="insert_credits">Inserisci i crediti, per favore</string>
+    <string name="insert_name">Inserisci il nome, per favore</string>
+    <string name="loading_wallpapers">Caricando gli sfondi</string>
+    <string name="material">Material</string>
+    <string name="matteo_lobello">Matteo Lobello</string>
+    <string name="minimal">Minimal</string>
+    <string name="name">Nome</string>
+    <string name="no">No</string>
+    <string name="no_wallpapers_available">Nessuno sfondo disponibile</string>
+    <string name="one_column">Una colonna</string>
+    <string name="photography">Fotografia</string>
+    <string name="poly">Poly</string>
+    <string name="select_wallpaper">Seleziona uno sfondo, per favore</string>
+    <string name="select_wallpaper_btn">Seleziona sfondo</string>
+    <string name="selecting_wallpaper">Selezionando uno sfondo...</string>
+    <string name="shake_to_select_random_wallapaper">Scuoti il dispositivo per selezionare uno sfondo casuale ;)</string>
+    <string name="support">No, voglio aiutarvi</string>
+    <string name="thank_you">Grazie :)</string>
+    <string name="three_columns">Tre colonne</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_apply_wallpaper">ApplyWallpaperActivity</string>
+    <string name="two_columns">Due colonne</string>
+    <string name="upload_wallpaper">Carica uno sfondo</string>
+    <string name="uploading_wallpaper">Caricando lo sfondo...</string>
+    <string name="users">Utenti</string>
+    <string name="wait_please">Aspetta per favore...</string>
+    <string name="warning">Attenzione</string>
+    <string name="yes">Sì</string>
 </resources>
