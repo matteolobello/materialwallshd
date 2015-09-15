@@ -30,6 +30,7 @@ import com.lob.mwhd.fragments.PolyFragment;
 import com.lob.mwhd.fragments.UploadWallpaperFragment;
 import com.lob.mwhd.fragments.UsersFragment;
 import com.lob.mwhd.helpers.GetSupportFragmentManager;
+import com.lob.mwhd.helpers.GetWhichFragment;
 import com.lob.mwhd.helpers.ShakeDetector;
 import com.lob.mwhd.helpers.Utils;
 import com.mikepenz.materialdrawer.Drawer;
@@ -75,6 +76,8 @@ public class MainActivity extends ActionBarActivity {
         if (Utils.isOnline(getApplicationContext())) {
             Utils.Debug.log(getString(R.string.device_is_connected));
 
+            GetWhichFragment.fragment = new MaterialFragment();
+
             Utils.setFragment(getSupportFragmentManager(), new MaterialFragment());
             Utils.setStatusBarColor(this);
 
@@ -101,13 +104,15 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public void onResume() {
         super.onResume();
-        sensorManager.registerListener(shakeDetector, accelerometer, SensorManager.SENSOR_DELAY_UI);
+        if (Utils.isOnline(getApplicationContext()))
+            sensorManager.registerListener(shakeDetector, accelerometer, SensorManager.SENSOR_DELAY_UI);
     }
 
     @Override
     public void onPause() {
-        sensorManager.unregisterListener(shakeDetector);
         super.onPause();
+        if (Utils.isOnline(getApplicationContext()))
+            sensorManager.unregisterListener(shakeDetector);
     }
 
     private void handleShakeEvent(int count) {
@@ -146,40 +151,49 @@ public class MainActivity extends ActionBarActivity {
                     public boolean onItemClick(AdapterView<?> parent, View view, int position, long id, IDrawerItem drawerItem) {
                         switch (position) {
                             case 0:
+                                GetWhichFragment.fragment = new MaterialFragment();
                                 drawer.closeDrawer();
                                 Utils.setFragment(fragmentManager, new MaterialFragment());
                                 break;
                             case 1:
+                                GetWhichFragment.fragment = new MinimalFragment();
                                 drawer.closeDrawer();
                                 Utils.setFragment(fragmentManager, new MinimalFragment());
                                 break;
                             case 2:
+                                GetWhichFragment.fragment = new FlatFragment();
                                 drawer.closeDrawer();
                                 Utils.setFragment(fragmentManager, new FlatFragment());
                                 break;
                             case 3:
+                                GetWhichFragment.fragment = new GoogleNowFragment();
                                 drawer.closeDrawer();
                                 Utils.setFragment(fragmentManager, new GoogleNowFragment());
                                 break;
                             case 4:
+                                GetWhichFragment.fragment = new PolyFragment();
                                 drawer.closeDrawer();
                                 Utils.setFragment(fragmentManager, new PolyFragment());
                                 break;
                             case 5:
+                                GetWhichFragment.fragment = new PhotographyFragment();
                                 drawer.closeDrawer();
                                 Utils.setFragment(fragmentManager, new PhotographyFragment());
                                 break;
                             case 6:
+                                GetWhichFragment.fragment = null;
                                 drawer.closeDrawer();
                                 Utils.setFragment(fragmentManager, new UsersFragment());
                                 break;
                             case 7:
                                 // It's the divider drawer item
                             case 8:
+                                GetWhichFragment.fragment = null;
                                 drawer.closeDrawer();
                                 Utils.setFragment(fragmentManager, new UploadWallpaperFragment());
                                 break;
                             case 9:
+                                GetWhichFragment.fragment = null;
                                 drawer.closeDrawer();
                                 Utils.setFragment(fragmentManager, new AboutFragment());
                                 break;
@@ -253,16 +267,23 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
         if (id == R.id.action_gridview_1_col) {
             editor.putInt("col", 1).apply();
-            Utils.restart(activity, getApplicationContext());
+            handleChangeColumn();
         }
         if (id == R.id.action_gridview_2_col) {
             editor.putInt("col", 2).apply();
-            Utils.restart(activity, getApplicationContext());
+            handleChangeColumn();
         }
         if (id == R.id.action_gridview_3_col) {
             editor.putInt("col", 3).apply();
-            Utils.restart(activity, getApplicationContext());
+            handleChangeColumn();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void handleChangeColumn() {
+        if (GetWhichFragment.fragment != null)
+            Utils.setFragment(getSupportFragmentManager(), GetWhichFragment.fragment);
+        else
+            Utils.restart(activity, getApplicationContext());
     }
 }
