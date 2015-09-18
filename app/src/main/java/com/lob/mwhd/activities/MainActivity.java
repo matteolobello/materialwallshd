@@ -265,17 +265,19 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_gridview_1_col) {
-            editor.putInt("col", 1).apply();
-            handleChangeColumn();
-        }
-        if (id == R.id.action_gridview_2_col) {
-            editor.putInt("col", 2).apply();
-            handleChangeColumn();
-        }
-        if (id == R.id.action_gridview_3_col) {
-            editor.putInt("col", 3).apply();
-            handleChangeColumn();
+        switch (id) {
+            case R.id.action_gridview_1_col:
+                editor.putInt("col", 1).apply();
+                handleChangeColumn();
+                break;
+            case R.id.action_gridview_2_col:
+                editor.putInt("col", 2).apply();
+                handleChangeColumn();
+                break;
+            case R.id.action_gridview_3_col:
+                editor.putInt("col", 3).apply();
+                handleChangeColumn();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

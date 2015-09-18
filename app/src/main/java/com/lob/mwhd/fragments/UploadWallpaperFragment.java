@@ -23,6 +23,7 @@ import android.widget.EditText;
 
 import com.lob.mwhd.R;
 import com.lob.mwhd.URLs;
+import com.lob.mwhd.helpers.GetWhichFragment;
 
 import java.io.DataOutputStream;
 import java.io.File;
@@ -191,6 +192,7 @@ public class UploadWallpaperFragment extends Fragment {
             }
         });
 
+        GetWhichFragment.fragment = null;
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         uploadButton.setOnClickListener(new View.OnClickListener() {

@@ -24,6 +24,7 @@ import android.widget.TextView;
 
 import com.lob.mwhd.R;
 import com.lob.mwhd.URLs;
+import com.lob.mwhd.helpers.GetWhichFragment;
 import com.lob.mwhd.helpers.Utils;
 
 public class AboutFragment extends Fragment {
@@ -38,8 +39,10 @@ public class AboutFragment extends Fragment {
 
         final Typeface typeface = Typeface.createFromAsset(getActivity().getAssets(), "Roboto-Thin.ttf");
 
-        getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
+        GetWhichFragment.fragment = null;
 
+        getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
+        
         floatingActionButton.startAnimation(AnimationUtils.loadAnimation(getActivity(), R.anim.zoom_in));
         floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(Color.WHITE));
         floatingActionButton.setRippleColor(Color.GRAY);

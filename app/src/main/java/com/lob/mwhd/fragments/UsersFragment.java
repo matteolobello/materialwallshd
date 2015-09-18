@@ -19,6 +19,7 @@ import android.widget.GridView;
 import com.lob.mwhd.R;
 import com.lob.mwhd.URLs;
 import com.lob.mwhd.gridview.SetupGridView;
+import com.lob.mwhd.helpers.GetWhichFragment;
 import com.lob.mwhd.helpers.Utils;
 
 public class UsersFragment extends Fragment {
@@ -32,6 +33,7 @@ public class UsersFragment extends Fragment {
         gridView = (GridView) rootView.findViewById(R.id.grid_view);
         sharedPreferences = Utils.getSharedPreferences(getActivity());
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
+        GetWhichFragment.fragment = null;
         Utils.setupAds(rootView);
         SetupGridView.init(getActivity(), new UsersFragment(), getActivity().getApplicationContext(), rootView, gridView, sharedPreferences.getInt("col", 2), URLs.USERS_PATH);
         return rootView;
