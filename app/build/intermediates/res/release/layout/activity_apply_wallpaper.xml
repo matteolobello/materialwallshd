@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_apply_wallpaper"
+    tools:context="com.lob.mwhd.activities.ApplyWallpaperActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/ColorPrimary"
+        android:id="@+id/custom_action_bar">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/back_arrow"
+            android:src="@drawable/arrow_left"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/dl_item"
+            android:src="@drawable/download"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/credits_item"
+            android:src="@drawable/info"
+            android:layout_toLeftOf="@+id/dl_item"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toStartOf="@+id/dl_item"
+            android:layout_alignBottom="@+id/dl_item"
+            android:layout_alignTop="@+id/dl_item"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ab_title"
+            android:text="Title"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:lines="1"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_toRightOf="@+id/back_arrow"
+            android:layout_toStartOf="@+id/credits_item"
+            android:layout_toLeftOf="@+id/credits_item" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/big_image_preview"
+        android:transitionName="material_transition"
+        android:layout_marginTop="?android:attr/actionBarSize"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="fabClick"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/check"
+            android:elevation="4dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="16dp" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/layout_invisible"
+        android:layout_below="@+id/custom_action_bar">
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/check" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/layout/activity_apply_wallpaper.xml -->

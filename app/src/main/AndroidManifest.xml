@@ -57,8 +57,9 @@
                 <action android:name="android.intent.action.USER_PRESENT" />
             </intent-filter>
         </receiver>
+
         <receiver
-            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:name="com.lob.mwhd.parse.ParseNotificationReceiver"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.parse.push.intent.RECEIVE" />
@@ -66,6 +67,7 @@
                 <action android:name="com.parse.push.intent.OPEN" />
             </intent-filter>
         </receiver>
+
         <receiver
             android:name="com.parse.GcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND" >
@@ -76,6 +78,8 @@
                 <category android:name="com.lob.materialwallshd" />
             </intent-filter>
         </receiver>
+        <meta-data android:name="com.parse.push.notification_icon"
+            android:resource="@drawable/m"/>
     </application>
 
 </manifest>

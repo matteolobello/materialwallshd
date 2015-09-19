@@ -3,8 +3,12 @@ package com.lob.mwhd.parse;
 import android.app.Application;
 import android.content.Context;
 
+import com.lob.mwhd.activities.MainActivity;
 import com.parse.Parse;
+import com.parse.ParseConfig;
 import com.parse.ParseInstallation;
+import com.parse.ParsePush;
+import com.parse.PushService;
 
 public class ParseApplication extends Application {
     private static ParseApplication instance = new ParseApplication();

@@ -159,46 +159,52 @@ action#android.intent.action.USER_PRESENT
 ADDED from AndroidManifest.xml:57:17
 	android:name
 		ADDED from AndroidManifest.xml:57:25
-receiver#com.parse.ParsePushBroadcastReceiver
-ADDED from AndroidManifest.xml:60:9
+receiver#com.lob.mwhd.parse.ParseNotificationReceiver
+ADDED from AndroidManifest.xml:61:9
 	android:exported
+		ADDED from AndroidManifest.xml:63:13
+	android:name
 		ADDED from AndroidManifest.xml:62:13
-	android:name
-		ADDED from AndroidManifest.xml:61:13
 intent-filter#com.parse.push.intent.DELETE+com.parse.push.intent.OPEN+com.parse.push.intent.RECEIVE
-ADDED from AndroidManifest.xml:63:13
+ADDED from AndroidManifest.xml:64:13
 action#com.parse.push.intent.RECEIVE
-ADDED from AndroidManifest.xml:64:17
-	android:name
-		ADDED from AndroidManifest.xml:64:25
-action#com.parse.push.intent.DELETE
 ADDED from AndroidManifest.xml:65:17
 	android:name
 		ADDED from AndroidManifest.xml:65:25
-action#com.parse.push.intent.OPEN
+action#com.parse.push.intent.DELETE
 ADDED from AndroidManifest.xml:66:17
 	android:name
 		ADDED from AndroidManifest.xml:66:25
+action#com.parse.push.intent.OPEN
+ADDED from AndroidManifest.xml:67:17
+	android:name
+		ADDED from AndroidManifest.xml:67:25
 receiver#com.parse.GcmBroadcastReceiver
-ADDED from AndroidManifest.xml:69:9
+ADDED from AndroidManifest.xml:71:9
 	android:permission
-		ADDED from AndroidManifest.xml:71:13
+		ADDED from AndroidManifest.xml:73:13
 	android:name
-		ADDED from AndroidManifest.xml:70:13
+		ADDED from AndroidManifest.xml:72:13
 intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.lob.materialwallshd
-ADDED from AndroidManifest.xml:72:13
+ADDED from AndroidManifest.xml:74:13
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from AndroidManifest.xml:73:17
+ADDED from AndroidManifest.xml:75:17
 	android:name
-		ADDED from AndroidManifest.xml:73:25
+		ADDED from AndroidManifest.xml:75:25
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from AndroidManifest.xml:74:17
-	android:name
-		ADDED from AndroidManifest.xml:74:25
-category#com.lob.materialwallshd
 ADDED from AndroidManifest.xml:76:17
 	android:name
-		ADDED from AndroidManifest.xml:76:27
+		ADDED from AndroidManifest.xml:76:25
+category#com.lob.materialwallshd
+ADDED from AndroidManifest.xml:78:17
+	android:name
+		ADDED from AndroidManifest.xml:78:27
+meta-data#com.parse.push.notification_icon
+ADDED from AndroidManifest.xml:81:9
+	android:resource
+		ADDED from AndroidManifest.xml:82:13
+	android:name
+		ADDED from AndroidManifest.xml:81:20
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:appcompat-v7:22.2.1:20:5

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <!-- <item android:id="@+id/action_shuffle"
+        android:icon="@drawable/shuffle"
+        android:title="Shuffle Wallpapers"
+        app:showAsAction="ifRoom" /> -->
+    <item android:id="@+id/action_gridview_1_col" android:title="@string/one_column"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_gridview_2_col" android:title="@string/two_columns"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_gridview_3_col" android:title="@string/three_columns"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
+<!-- From: file:/Users/Lob/Documents/AndroidStudio/Progetti/MaterialWallsHD-v2.0/app/src/main/res/menu/menu_main.xml -->

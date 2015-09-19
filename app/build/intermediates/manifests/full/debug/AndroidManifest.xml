@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lob.mwhd"
-    android:versionCode="3"
-    android:versionName="2.0.2" >
+    android:versionCode="4"
+    android:versionName="2.0.3" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -68,7 +68,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:name="com.lob.mwhd.parse.ParseNotificationReceiver"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.parse.push.intent.RECEIVE" />
@@ -86,6 +86,10 @@
                 <category android:name="com.lob.materialwallshd" />
             </intent-filter>
         </receiver>
+
+        <meta-data
+            android:name="com.parse.push.notification_icon"
+            android:resource="@drawable/m" />
 
         <activity
             android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
